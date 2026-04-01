@@ -10,5 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping API
-        run: |
-          curl -I https://api.gaongully.com/api/health
+        run: curl -sSf -I https://api.gaongully.com/api/health
